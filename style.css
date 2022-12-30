@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ff7d00;
+    color: white;
+    
+}
+
+.container{
+    width: 55%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    /* background-color: green; */
+    margin: 2em auto;   
+    /* justify-content: center; */
+}
+
+.top{
+    width: 65%;
+    margin: 2em auto;
+    /* background-color: red; */
+    text-align: center;
+}
+h1{
+    padding-bottom: 1em;
+    font-size: 3.5em;
+}
+
+.top input{
+    width: 80%;
+    padding: 1em;
+    background-color: rgba(128, 128, 128, 0.6);
+    color: white;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    border-radius: 0.4em;
+}
+
+.top input::placeholder{
+    color: whitesmoke;
+}
+
+.middle{
+    width: 80%;
+    background-color: #003049 ;
+    margin: 2em auto;
+    /* border-radius: 0.6em; */
+    border-radius: 13px;
+}
+
+.middle ul li{
+    list-style-type: none;
+    border-bottom: 2px solid white;
+    padding: 1em;
+    box-sizing: border-box;
+    text-align: left;
+    border-radius: 0.3em;
+    font-size: 1.2em;
+}
+
+.bottom h2{
+   padding-bottom: 0.4em;
+} 
+
+.bottom input{
+    font-size: 1.3em;
+}
+
+/* .fa-trash-can{ */
+    /* padding-left: 9em; */
+    /* margin: 2em; */
+/* }  */
+
+ul div{
+    position: relative;
+}
+
+ul div .fa-trash-can{
+    position: absolute;
+    right: 1em;
+    top: 1.7em;
+
+}
+
+.hide{
+    display: none;
+}
+
+.display{
+    display: block;
+}
